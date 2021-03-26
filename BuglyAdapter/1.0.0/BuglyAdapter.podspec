@@ -139,5 +139,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    spec.dependency "Bugly",'2.5.8'
+   spec.dependency "DroidHangCommon",'1.0.0'
 
 end
