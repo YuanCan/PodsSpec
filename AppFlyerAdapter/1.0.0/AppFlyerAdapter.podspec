@@ -141,6 +141,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    spec.dependency "AppsFlyerFramework",'6.2.4'
    spec.dependency "DroidHangCommon",'1.0.0'
+   spec.dependency "DHThirdEventBasePlugin",'1.0.0'
 
 
 end
