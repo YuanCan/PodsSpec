@@ -144,5 +144,6 @@ Pod::Spec.new do |spec|
   spec.dependency "FBSDKLoginKit","9.1.0"
   spec.dependency "DHBaseLoginAdapter","1.0.0"
   spec.dependency "DroidHangCommon","1.0.0"
+  spec.dependency "DHThirdEventBasePlugin","1.0.0"
 
 end
