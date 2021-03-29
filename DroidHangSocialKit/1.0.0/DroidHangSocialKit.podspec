@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   baseDir = 'USDK_IOS/'
   projectName = 'DroidHangSocialKit'
   versionCode = '1.0.0'
+  resourceBundle = 'DroidHangSocialResource.bundle'
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  These will help people to find your library, and whilst it
@@ -99,6 +100,8 @@ Pod::Spec.new do |spec|
 
   spec.ios.preserve_paths = baseDir + projectName + '/' + versionCode + '/' + projectName +  '.framework'
   spec.ios.vendored_frameworks = baseDir + projectName + '/' + versionCode + '/' + projectName +  '.framework'
+  spec.ios.resource_bundle = { 'DroidHangSocialKit' => baseDir + projectName + '/' + versionCode + '/' + resourceBundle }
+
 
   # spec.public_header_files = "Classes/**/*.h"
 
